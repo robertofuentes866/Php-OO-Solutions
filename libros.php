@@ -4,5 +4,9 @@
       $this->paginas = $paginas;
     
    }
+  
+  public function getPaginas() {
+     return $this->paginas;
+  }
  }
 ?>
