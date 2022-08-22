@@ -11,5 +11,9 @@
             return $this->_type;
         }
         
+        public function getNumPages() {
+            return $this->_paginas;
+        }
+        
     }
 ?>
