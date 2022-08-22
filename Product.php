@@ -16,6 +16,10 @@
         public function getNumPages() {
             return $this->_paginas;
         }
+
+        public function setNumPages($pages) {
+            $this->_paginas = $pages;
+        }
         
     }
 ?>
