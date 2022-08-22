@@ -5,6 +5,10 @@
         public function setType($_type) {
             $this->_type = $_type;
         }
+
+        public function getType(){
+            return $this->_type;
+        }
         
     }
 ?>
