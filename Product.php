@@ -1,4 +1,5 @@
 <?php
+// esta clase es para registro de los productos.
     class Ch2_Product {
         protected $_type = 'Book';
         protected $_paginas = 10;
