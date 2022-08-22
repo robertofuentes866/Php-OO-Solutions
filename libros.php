@@ -1,6 +1,7 @@
 <?php
  class libros {
-   public function __construct() {
+   public function __construct(protected int $paginas) {
+      $this->paginas = $paginas;
     
    }
  }
